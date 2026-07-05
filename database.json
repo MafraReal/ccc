@@ -1,0 +1,345 @@
+{
+  "servers": [
+    {
+      "id": "222",
+      "name": "Server 222 (RP Italia)",
+      "ip": "185.223.15.42:30120",
+      "status": "online",
+      "playersCount": 48,
+      "maxPlayers": 128
+    },
+    {
+      "id": "404",
+      "name": "Server 404 (Los Santos Life)",
+      "ip": "0.0.0.0:30120",
+      "status": "online",
+      "playersCount": 12,
+      "maxPlayers": 64
+    },
+    {
+      "id": "888",
+      "name": "Server 888 (Milano RP)",
+      "ip": "95.217.1.10:30120",
+      "status": "offline",
+      "playersCount": 0,
+      "maxPlayers": 128
+    },
+    {
+      "id": "srv-init-1783262707071",
+      "userId": "usr-1783262707071",
+      "name": "Server di mafra (Default)",
+      "ip": "0.0.0.0:30120",
+      "status": "offline",
+      "playersCount": 0,
+      "maxPlayers": 128
+    }
+  ],
+  "keys": [
+    {
+      "id": "key-1783257993223",
+      "key": "VAC-V7PL374K077GO8VKZ2MK",
+      "tier": "Premium",
+      "duration": "30 Days",
+      "linkedServer": "222",
+      "redeemedAt": "2026-07-05 13:26",
+      "userid": "",
+      "createdBy": "Discord Bot (Auto-imported)",
+      "ip": "",
+      "usedTimestamp": 1783257993
+    },
+    {
+      "id": "key-1",
+      "key": "PAC-LIFETIME-FREE-MH60-ZGV6",
+      "tier": "Free",
+      "duration": "Lifetime",
+      "linkedServer": "222",
+      "redeemedAt": "2026-03-12 18:40"
+    },
+    {
+      "id": "key-2",
+      "key": "PAC-30DAYS-PREM-AX90-PL21",
+      "tier": "Premium",
+      "duration": "30 Days",
+      "linkedServer": "404",
+      "redeemedAt": "2026-06-01 12:15",
+      "ip": "0.0.0.0"
+    }
+  ],
+  "bans": [
+    {
+      "id": "ban-sim-1783259017638",
+      "playerName": "LuigiV",
+      "steamId": "steam:11000011fca34bb",
+      "discordId": "luigiv#9911",
+      "reason": "[Simulated Detection] Illegal Weapon Spawner detected",
+      "bannedBy": "PowerAC Guard (Sandbox)",
+      "date": "2026-07-05 13:43",
+      "active": true
+    },
+    {
+      "id": "ban-sim-1783258981595",
+      "playerName": "Mario_Rossi",
+      "steamId": "steam:11000013f99aa21",
+      "discordId": "rossi#1234",
+      "reason": "[Simulated Detection] NoClip / Fly Hack detected",
+      "bannedBy": "PowerAC Guard (Sandbox)",
+      "date": "2026-07-05 13:43",
+      "active": true
+    },
+    {
+      "id": "ban-1",
+      "playerName": "GamerGod_99",
+      "steamId": "steam:11000013e2f177c",
+      "discordId": "discord:529241940984852480",
+      "reason": "Lua Executor execution: triggerServerEvent(\"adminMenu\")",
+      "bannedBy": "PowerAC System",
+      "date": "2026-07-03 23:14",
+      "active": true
+    },
+    {
+      "id": "ban-2",
+      "playerName": "CheaterPro_FiveM",
+      "steamId": "steam:110000109ae93c1",
+      "discordId": "discord:412093849023812048",
+      "reason": "Spectate Mode Bypass detected",
+      "bannedBy": "PowerAC System",
+      "date": "2026-07-03 18:42",
+      "active": true
+    }
+  ],
+  "config": {
+    "antiNoclip": true,
+    "antiSpectate": true,
+    "antiGiveWeapon": true,
+    "antiCheatEngine": true,
+    "antiTriggerEvent": false,
+    "antiVehicleSpam": true,
+    "discordLogWebhook": "https://discordapp.com/api/webhooks/1523323402423894088/-zdmQS9-r-JlCh5ld5qyQnnuiqGDBgom-Rl5qKxvSsYNUyHLXlx41T_T7nWQVvJZdQG4",
+    "detectionSensitivity": 7
+  },
+  "consoleLogs": [
+    {
+      "id": "l1",
+      "timestamp": "14:32:01",
+      "type": "info",
+      "message": "PowerAC system initializing on Server 222..."
+    },
+    {
+      "id": "l2",
+      "timestamp": "14:32:05",
+      "type": "success",
+      "message": "Loaded 52 base detection matrices successfully"
+    },
+    {
+      "id": "l3",
+      "timestamp": "14:32:06",
+      "type": "info",
+      "message": "Connected to Discord Log Webhook: #powerac-logs"
+    },
+    {
+      "id": "l4",
+      "timestamp": "14:35:12",
+      "type": "warning",
+      "message": "Player Mario_Rossi ping spike: 180ms"
+    },
+    {
+      "id": "l5",
+      "timestamp": "14:38:44",
+      "type": "error",
+      "message": "Blocked Executor attempt from [steam:11000013e2f177c] GamerGod_99"
+    },
+    {
+      "id": "l6",
+      "timestamp": "14:38:44",
+      "type": "success",
+      "message": "Banned GamerGod_99 for 365 days (Reason: Lua Executor)"
+    },
+    {
+      "id": "l7",
+      "timestamp": "14:40:12",
+      "type": "info",
+      "message": "Config reloaded by Admin console."
+    },
+    {
+      "id": "log-1783257993223",
+      "timestamp": "13:26:33",
+      "type": "success",
+      "message": "RCON: License Key verified & linked [Tier: Premium] to Server Server 222 (RP Italia)."
+    },
+    {
+      "id": "sandbox-l1-1783258981595",
+      "timestamp": "13:43:01",
+      "type": "info",
+      "message": "[Sandbox] Simulating cheat attack vector: \"NoClip / Fly Hack\" on player [Mario_Rossi]"
+    },
+    {
+      "id": "sandbox-l2-1783258981595",
+      "timestamp": "13:43:01",
+      "type": "warning",
+      "message": "[PowerAC Guard] Flagged event: \"Triggered protection policy: NoClip / Fly Hack\" from identifier: steam:11000013f99aa21"
+    },
+    {
+      "id": "sandbox-l3-1783258981595",
+      "timestamp": "13:43:01",
+      "type": "error",
+      "message": "[PowerAC Guard] ACTION TAKEN: Player Mario_Rossi has been permanently banned."
+    },
+    {
+      "id": "sandbox-l1-1783259017638",
+      "timestamp": "13:43:37",
+      "type": "info",
+      "message": "[Sandbox] Simulating cheat attack vector: \"Illegal Weapon Spawner\" on player [LuigiV]"
+    },
+    {
+      "id": "sandbox-l2-1783259017638",
+      "timestamp": "13:43:37",
+      "type": "warning",
+      "message": "[PowerAC Guard] Flagged event: \"Triggered protection policy: Illegal Weapon Spawner\" from identifier: steam:11000011fca34bb"
+    },
+    {
+      "id": "sandbox-l3-1783259017638",
+      "timestamp": "13:43:37",
+      "type": "error",
+      "message": "[PowerAC Guard] ACTION TAKEN: Player LuigiV has been permanently banned."
+    }
+  ],
+  "unredeemedKeys": [
+    {
+      "key": "PAC-DISCORD-TEST-KEY1-AAAA",
+      "tier": "Premium",
+      "duration": "30 Days",
+      "used": false
+    },
+    {
+      "key": "PAC-DISCORD-TEST-KEY2-BBBB",
+      "tier": "Exclusive",
+      "duration": "Lifetime",
+      "used": false
+    },
+    {
+      "key": "VAC-MAFRA-6467-KEY",
+      "tier": "Premium",
+      "duration": "30 Days",
+      "used": false,
+      "createdBy": "Auto-seeded for New Account",
+      "createdAt": "2026-07-05T14:45:07.071Z"
+    },
+    {
+      "key": "VAC-FREE-MAFRA-4236-LIFETIME",
+      "tier": "Free",
+      "duration": "Lifetime",
+      "used": false,
+      "createdBy": "User-usr-1783262707071",
+      "createdAt": "2026-07-05T15:10:51.557Z"
+    },
+    {
+      "key": "VAC-123-5972-KEY",
+      "tier": "Premium",
+      "duration": "30 Days",
+      "used": false,
+      "createdBy": "Auto-seeded for New Account",
+      "createdAt": "2026-07-05T16:30:02.693Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "name": "Seba",
+      "steamHex": "steam:110000100abcdef",
+      "role": "Owner",
+      "addedAt": "2026-01-01"
+    },
+    {
+      "id": "2",
+      "name": "David_C",
+      "steamHex": "steam:110000199f332aa",
+      "role": "SuperAdmin",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "3",
+      "name": "Dev_Matt",
+      "steamHex": "steam:110000144bb2112",
+      "role": "Admin",
+      "addedAt": "2026-05-20"
+    }
+  ],
+  "activePlayers": [
+    {
+      "id": "3",
+      "name": "Anticheat_Tester",
+      "ping": 12,
+      "steamId": "steam:11000014aa2212a",
+      "discord": "tester#0001",
+      "hardwareId": "hw:2fb11d...",
+      "joinTime": "12m ago"
+    },
+    {
+      "id": "4",
+      "name": "GigaChadRP",
+      "ping": 48,
+      "steamId": "steam:11000012bcdd33a",
+      "discord": "gigachad#1337",
+      "hardwareId": "hw:7ff11a...",
+      "joinTime": "3h 10m ago"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1783262707071",
+      "username": "mafra",
+      "password": "Davidcerasa26.",
+      "role": "admin",
+      "createdAt": "2026-07-05T14:45:07.071Z"
+    },
+    {
+      "id": "usr-1783269002693",
+      "username": "123",
+      "password": "123",
+      "role": "User",
+      "createdAt": "2026-07-05T16:30:02.693Z"
+    }
+  ],
+  "configs": {
+    "222": {
+      "antiNoclip": true,
+      "antiSpectate": true,
+      "antiGiveWeapon": true,
+      "antiCheatEngine": true,
+      "antiTriggerEvent": false,
+      "antiVehicleSpam": true,
+      "discordLogWebhook": "https://discordapp.com/api/webhooks/1523323402423894088/-zdmQS9-r-JlCh5ld5qyQnnuiqGDBgom-Rl5qKxvSsYNUyHLXlx41T_T7nWQVvJZdQG4",
+      "detectionSensitivity": 7
+    },
+    "404": {
+      "antiNoclip": true,
+      "antiSpectate": true,
+      "antiGiveWeapon": true,
+      "antiCheatEngine": true,
+      "antiTriggerEvent": false,
+      "antiVehicleSpam": true,
+      "discordLogWebhook": "https://discordapp.com/api/webhooks/1523323402423894088/-zdmQS9-r-JlCh5ld5qyQnnuiqGDBgom-Rl5qKxvSsYNUyHLXlx41T_T7nWQVvJZdQG4",
+      "detectionSensitivity": 7
+    },
+    "888": {
+      "antiNoclip": true,
+      "antiSpectate": true,
+      "antiGiveWeapon": true,
+      "antiCheatEngine": true,
+      "antiTriggerEvent": false,
+      "antiVehicleSpam": true,
+      "discordLogWebhook": "https://discordapp.com/api/webhooks/1523323402423894088/-zdmQS9-r-JlCh5ld5qyQnnuiqGDBgom-Rl5qKxvSsYNUyHLXlx41T_T7nWQVvJZdQG4",
+      "detectionSensitivity": 7
+    },
+    "srv-init-1783262707071": {
+      "antiNoclip": true,
+      "antiSpectate": true,
+      "antiGiveWeapon": true,
+      "antiCheatEngine": true,
+      "antiTriggerEvent": false,
+      "antiVehicleSpam": true,
+      "discordLogWebhook": "https://discordapp.com/api/webhooks/1523323402423894088/-zdmQS9-r-JlCh5ld5qyQnnuiqGDBgom-Rl5qKxvSsYNUyHLXlx41T_T7nWQVvJZdQG4",
+      "detectionSensitivity": 7
+    }
+  }
+}

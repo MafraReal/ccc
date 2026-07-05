@@ -1,0 +1,6 @@
+{
+  "name": "Power Anticheat Dashboard",
+  "description": "Customer area for Power Anticheat to redeem license keys, manage servers, download configs, and monitor security features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
